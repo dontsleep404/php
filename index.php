@@ -1,3 +1,3 @@
 <?php
-echo 5;
+echo "<script>location.href = 'https://account.garena.com/'</script>";
 ?>
