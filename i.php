@@ -10,4 +10,5 @@
 	curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
 	$rq1 = curl_exec($c);
 	curl_close($c);
+	echo $rq1;
 ?>
